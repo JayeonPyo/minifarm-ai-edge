@@ -65,7 +65,7 @@ Edit `src/minifarm_ai_main.py`:
 ```python
 TINYIOT_URL = "http://YOUR_SERVER_IP:3000"
 RASPI_ORIGIN = "SRaspberryPi_AI"
-TARGET_HOURS = [8, 13, 18]  # Analysis schedule
+TARGET_HOURS = list(range(24))  # Analysis schedule
 ```
 
 5. **Run AI edge node**
@@ -112,7 +112,7 @@ Post-processing splits into:
 
 ### 3. Real-time Streaming
 
-- **High-res stream** (4608×3456): AI analysis only (3 times/day)
+- **High-res stream** (4608×3456): AI analysis only (24 times/day)
 - **Low-res stream** (640×480): 24/7 MJPEG streaming 
 
 ---
