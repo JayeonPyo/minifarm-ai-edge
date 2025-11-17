@@ -38,7 +38,7 @@ os.makedirs(SAVE_DIR, exist_ok=True)
 STREAMING_PORT = 5000
 
 # AI Detection Timing Configuration
-TARGET_HOURS = [8, 13, 18]  # 8:00 AM, 1:00 PM, 6:00 PM
+TARGET_HOURS = list(range(24))
 CHECK_INTERVAL_SECONDS = 60 * 10  # Check every 10 minutes
 
 # ====================  Streaming Server Classes ====================
