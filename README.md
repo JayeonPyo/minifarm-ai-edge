@@ -143,4 +143,5 @@ src/
 - [Ultralytics](https://github.com/ultralytics/ultralytics) for YOLOv8
 
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
